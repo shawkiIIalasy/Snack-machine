@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: relative;
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.app .title{
+    text-align: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.snackItems {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.snackItems .item {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px ;
+}
+
+.machineMoneyView {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.machineMoneyView .item {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px ;
+}
+
+.action {
+    grid-column:2;
+    text-align: center;
+    padding: 10px;
+    margin:10px ;
+}
+button
+{
+    padding:5px;margin:5px;
+}
+.buy button{
+    width: 200px;
+    height: 80px;
+}
