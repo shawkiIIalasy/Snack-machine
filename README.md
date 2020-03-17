@@ -13,8 +13,29 @@
     * JDK 11.0.6
     * JUnit 5
     
-  ## Build:
-    * change your directory to project use `cd Part-1/snack-machine`.
-    * use `mvn clean install` to install all dependencies.
-    * use `mvn clean test` to test all test cases.
-    
+  ### Installing
+
+First, change your directroy to the project folder.
+```
+cd Part-1/snack-machine 
+```
+Second, install all maven dependencies.
+```
+mvn clean install
+```
+
+## Running the tests
+
+To run all testcases :
+```
+mvn clean test
+```
+## Authors
+
+* **Shawki Alasy** - *Initial work* - [Shawki Alasy](https://github.com/shawkiIIalasy)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
