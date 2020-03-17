@@ -1,12 +1,10 @@
 body {
     width: 90%;
     height: 100%;
-    color:#ffffff;
+    color: #ffffff;
     font: 15px 'Roboto Slab', sans-serif;
     line-height: 1.5;
     letter-spacing: 0.07rem;
-
-
 }
 
 .app {
@@ -25,7 +23,8 @@ body {
     opacity: 0.95;
     box-shadow: 1px 1px 1px 1px #888888;
 }
-.app .title{
+
+.app .title {
     text-align: center;
     justify-content: center;
     grid-column-start: 1;
@@ -39,24 +38,25 @@ body {
 }
 
 .snackItems .item {
-    text-align:left;
+    text-align: left;
     border: 1px solid #1fc8db;
     border-radius: 5px;
     padding: 10px;
-    margin:10px ;
+    margin: 10px;
     color: #1fc8db;
-    background-color:white;
+    background-color: white;
 }
+
 .snackItems .item div {
-    text-align:center;
+    text-align: center;
 }
 
 .machineMoneyView {
     grid-column-start: 3;
     grid-column-end: 3;
-    grid-row-start:1;
-    grid-row-end:5;
-    border-left:1px solid #1fc8db;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border-left: 1px solid #1fc8db;
 
 }
 
@@ -64,111 +64,132 @@ body {
     border: 1px solid #1fc8db;
     border-radius: 5px;
     padding: 10px;
-    padding-top:20px;
-    padding-bottom:20px;
-    margin:10px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
     color: #1fc8db;
-    background-color:white;
+    background-color: white;
 }
-.machineMoneyView .item div{
-    padding:5px;
-    font-size:60px;
+
+.machineMoneyView .item div {
+    padding: 5px;
+    font-size: 60px;
 }
+
 .action {
     grid-column-start: 1;
     grid-column-end: 3;
     text-align: center;
     padding: 10px;
-    margin:10px ;
+    margin: 10px;
 }
-.draw-border {
-  box-shadow: inset 0 0 0 4px #ffffff;
-   font: 700 1.2rem 'Roboto Slab', sans-serif;
-  color: #ffffff;
-  -webkit-transition: color 0.25s 0.0833333333s;
-  transition: color 0.25s 0.0833333333s;
-  position: relative;
-  border-radius:10px;
-  margin-top:5px;
-}
-.draw-border::before, .draw-border::after {
-  border: 0 solid transparent;
-  border-radius:10px;
-  box-sizing: border-box;
-  content: '';
-  pointer-events: none;
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 0;
-  right: 0;
-}
-.draw-border::before {
-  border-bottom-width: 4px;
-  border-left-width: 4px;
 
-}
-.draw-border::after {
-  border-top-width: 4px;
-  border-right-width: 4px;
-}
-.draw-border:hover {
-  color: #FFE900 ;
-}
-.draw-border:hover::before, .draw-border:hover::after {
-  border-color: #FFE900 ;
-  -webkit-transition: border-color 0s,border-radius:10px, width 0.25s, height 0.25s;
-  transition: border-color 0s, width 0.25s, height 0.25s;
-  width: 100%;
-  height: 100%;
-
-}
-.draw-border:hover::before {
-  -webkit-transition-delay: 0s, 0s, 0.25s;
-          transition-delay: 0s, 0s, 0.25s;
-}
-.draw-border:hover::after {
-  -webkit-transition-delay: 0s, 0.25s, 0s;
-          transition-delay: 0s, 0.25s, 0s;
-}
-.money-btn
-{
-line-height: 1.0;
-letter-spacing: 0.05rem;
-  font: 15px 'Roboto Slab', sans-serif;
-box-shadow: inset 0 0 0 4px #ffffff;
-  color: #ffffff;
-  -webkit-transition: color 0.25s 0.0833333333s;
-  transition: color 0.25s 0.0833333333s;
-  position: relative;
-  border-radius:5px;
-  margin-top:5px;
-}
-.money-btn:hover{
-    background:#ffffff;
-    color:#1fc8db;
-}
-.insertSnackItem{
-margin-top:20px;
-}
-.snacks{
-width:100%;
-  box-shadow: inset 0 0 0 4px #ffffff;
+.drawBorder {
+    box-shadow: inset 0 0 0 4px #ffffff;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
     color: #ffffff;
     -webkit-transition: color 0.25s 0.0833333333s;
     transition: color 0.25s 0.0833333333s;
     position: relative;
-    border-radius:5px;
-    margin-top:5px;
+    border-radius: 10px;
+    margin-top: 5px;
 }
+
+.drawBorder::before, .drawBorder::after {
+    border: 0 solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.drawBorder::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+
+}
+
+.drawBorder::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.drawBorder:hover {
+    color: #FFE900;
+}
+
+.drawBorder:hover::before, .drawBorder:hover::after {
+    border-color: #FFE900;
+    -webkit-transition: border-color 0s, border-radius 10s, width 0.25s, height 0.25s;
+    transition: border-color 0s, border-radius 10s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+
+}
+
+.drawBorder:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.drawBorder:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+.moneyBtn {
+    line-height: 1.0;
+    letter-spacing: 0.05rem;
+    font: 15px 'Roboto Slab', sans-serif;
+    box-shadow: inset 0 0 0 4px #ffffff;
+    color: #ffffff;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.moneyBtn:hover {
+    background: #ffffff;
+    color: #1fc8db;
+}
+
+.insertSnackItem {
+    margin-top: 20px;
+}
+
+.snacks {
+    width: 100%;
+    box-shadow: inset 0 0 0 4px #ffffff;
+    color: #ffffff;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5px;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+    background: url("selectDown.png") padding-box no-repeat 95% !important;
+    background-position : 100px 50px;
+
+}
+
 .btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  line-height: 1.5;
-  padding: 1em 2em;
-  letter-spacing: 0.05rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
 }
+
 .btn:focus {
-  outline: 2px dotted #55d7dc;
+    outline: 2px dotted #55d7dc;
 }
