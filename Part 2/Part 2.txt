@@ -1,8 +1,6 @@
 1-What are Mutation Observers in JavaScript?
     Is used to listen and watch the changes begin made to the DOM tree (Attribute, Text or Children).
 
-
-
 2- Explain 3 different CSS selectors:         //they are 5 not 3
     1) Element selector : you can access to HTML element by element name.
         (
