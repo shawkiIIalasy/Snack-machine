@@ -1,0 +1,30 @@
+1-What are Mutation Observers in JavaScript?
+    Is used to listen and watch the changes begin made to the DOM tree (Attribute, Text or Children).
+
+
+
+2- Explain 3 different CSS selectors:         //they are 5 not 3
+    1) Element selector : you can access to HTML element by element name.
+        (
+            Html: <p>This is a paragraph.</p>
+            css : p{ padding:10px;}
+         )
+    2) Id Selector (#) : you can access to HTML element by the id attribute.
+        (
+             Html: <p id="par">This is a paragraph.</p>
+             css : #par{ padding:10px;}
+        }
+    3) Class Selector (.) :  you can access to HTML element by the class attribute.
+        (
+             Html: <p class="par">This is a paragraph.</p>
+             css : .par{ padding:10px;}
+        )
+
+3- What is the difference between SessionStorage and LocalStorage in HTML5?
+    Session Storage: It is used to save data for a particular session of the user,
+                     it is designed for scenario where the user is carrying out a single transaction,
+                     the session will destroy if the tab or window will be close.
+
+    Local Storage:  It is used to save data for a periods pf time,
+                    it is designed for storage that spans multiple windows and lasts beyond the current session,
+                    and it is will keep until the tab or window will be close.

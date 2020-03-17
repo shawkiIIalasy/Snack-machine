@@ -8,14 +8,17 @@ public class Money {
     public static Money QUARTER_DINAR = new Money(BigDecimal.valueOf(0.25));
     public static Money HALF_DINAR = new Money(BigDecimal.valueOf(0.5));
     public static Money DINAR = new Money(BigDecimal.valueOf(1.0));
+    public static Money FIVE_DINAR = new Money(BigDecimal.valueOf(1.0));
+    public static Money TEN_DINAR = new Money(BigDecimal.valueOf(1.0));
+
     private static HashMap<BigDecimal, Money> units = new HashMap<BigDecimal, Money>() {
         {
             put(BigDecimal.valueOf(0), Money.ZERO);
             put(BigDecimal.valueOf(0.25), Money.QUARTER_DINAR);
             put(BigDecimal.valueOf(1.0), Money.DINAR);
             put(BigDecimal.valueOf(0.5), Money.HALF_DINAR);
-            put(BigDecimal.valueOf(5.0), new Money(BigDecimal.valueOf(5.0)));
-            put(BigDecimal.valueOf(10.0), new Money(BigDecimal.valueOf(10.0)));
+            put(BigDecimal.valueOf(5.0), Money.FIVE_DINAR));
+            put(BigDecimal.valueOf(10.0), Money.TEN_DINAR));
         }
     };
     public BigDecimal pocket;
