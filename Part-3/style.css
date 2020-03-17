@@ -1,3 +1,9 @@
+/*
+Theme Name: Snack Machine Main Style
+Description: Snack Machine Design
+Author: Shawki Alasy
+*/
+/****** General Styles *********/
 body {
     width: 90%;
     height: 100%;
@@ -30,7 +36,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
 }
-
+/****** View Styles *********/
 .snackItems {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -75,7 +81,7 @@ body {
     padding: 5px;
     font-size: 60px;
 }
-
+/****** Action Styles *********/
 .action {
     grid-column-start: 1;
     grid-column-end: 3;
