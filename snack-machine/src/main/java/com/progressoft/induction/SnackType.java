@@ -1,5 +1,4 @@
 package com.progressoft.induction;
-
 public enum SnackType {
     CHIPS,
     CHOCOLATE,

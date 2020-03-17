@@ -2,4 +2,5 @@ com/progressoft/induction/Money.class
 com/progressoft/induction/SnackType.class
 com/progressoft/induction/Snack.class
 com/progressoft/induction/SnackMachine$1.class
+com/progressoft/induction/Money$1.class
 com/progressoft/induction/SnackMachine.class

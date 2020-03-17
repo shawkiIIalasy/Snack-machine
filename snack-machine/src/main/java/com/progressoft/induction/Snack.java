@@ -1,5 +1,4 @@
 package com.progressoft.induction;
-
 public class Snack {
     SnackType snackType;
     private double quantity = 0;
