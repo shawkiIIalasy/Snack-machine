@@ -30,6 +30,10 @@ To run all testcases :
 ```
 mvn clean test
 ```
+
+## Image: 
+![alt Snack machine](https://github.com/shawkiIIalasy/Snack-machine/blob/master/Part-3/SnackMachineUIDesign.png)
+
 ## Authors
 
 * **Shawki Alasy** - *Initial work* - [Shawki Alasy](https://github.com/shawkiIIalasy)
